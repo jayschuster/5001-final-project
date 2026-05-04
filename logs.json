@@ -1,0 +1,22 @@
+[
+  { "sender": "Alice",   "timestamp": "2025-05-01T09:02:00", "message": "Morning everyone. Standup in 5." },
+  { "sender": "Bob",     "timestamp": "2025-05-01T09:07:00", "message": "Ready. Still blocked on the auth token issue from yesterday." },
+  { "sender": "Alice",   "timestamp": "2025-05-01T09:08:00", "message": "Yeah I saw that. I'll take a look after standup, should be a config problem." },
+  { "sender": "Carol",   "timestamp": "2025-05-01T09:09:00", "message": "I finished the dashboard redesign. PR is up, needs review." },
+  { "sender": "Alice",   "timestamp": "2025-05-01T09:10:00", "message": "Nice, I'll review it today. Bob, can you also take a look when you get unblocked?" },
+  { "sender": "Bob",     "timestamp": "2025-05-01T09:11:00", "message": "Sure, will do." },
+  { "sender": "Alice",   "timestamp": "2025-05-01T10:45:00", "message": "Found the auth issue — wrong env variable in the staging config. Pushed a fix, Bob try pulling." },
+  { "sender": "Bob",     "timestamp": "2025-05-01T10:52:00", "message": "That fixed it! Tokens are working now. Moving on to the export feature." },
+  { "sender": "Carol",   "timestamp": "2025-05-01T11:30:00", "message": "Client messaged — they want the CSV export by end of week, not next week." },
+  { "sender": "Alice",   "timestamp": "2025-05-01T11:32:00", "message": "Ouch. Bob, is that realistic?" },
+  { "sender": "Bob",     "timestamp": "2025-05-01T11:35:00", "message": "Tight but doable if I skip the custom column mapping for now." },
+  { "sender": "Alice",   "timestamp": "2025-05-01T11:36:00", "message": "Agreed, ship a basic version first. Carol, let the client know." },
+  { "sender": "Carol",   "timestamp": "2025-05-01T11:40:00", "message": "Done. Also, the staging environment is throwing 502s again intermittently." },
+  { "sender": "Alice",   "timestamp": "2025-05-01T11:42:00", "message": "Ugh. I'll flag it with DevOps. Probably the load balancer again." },
+  { "sender": "Bob",     "timestamp": "2025-05-01T14:10:00", "message": "Export feature scaffolded. Basic CSV download working for single tables." },
+  { "sender": "Carol",   "timestamp": "2025-05-01T14:15:00", "message": "Great. I updated the dashboard PR based on Alice's comments. Ready for a second look." },
+  { "sender": "Alice",   "timestamp": "2025-05-01T16:00:00", "message": "DevOps says the 502s are being investigated, no ETA yet. Also, we need to decide on the new onboarding flow by tomorrow's meeting." },
+  { "sender": "Bob",     "timestamp": "2025-05-01T16:05:00", "message": "I have some thoughts on that, will write them up tonight." },
+  { "sender": "Carol",   "timestamp": "2025-05-01T16:08:00", "message": "Same. Should we use a shared doc or just talk it through in the meeting?" },
+  { "sender": "Alice",   "timestamp": "2025-05-01T16:10:00", "message": "Let's do a shared doc so we're not starting cold. I'll create one and ping you both." }
+]
