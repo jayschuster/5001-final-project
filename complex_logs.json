@@ -25,7 +25,7 @@
   { "sender": "Bob",     "timestamp": "2025-05-01T10:25:00", "message": "Yeah that's fair. I was thinking 30 days but I wasn't sure if that was too short. 60?" },
   { "sender": "Alice",   "timestamp": "2025-05-01T10:27:00", "message": "Let's do 60 days with a deprecation warning header on all v1 responses starting immediately. That gives clients time to migrate and keeps us legally covered." },
   { "sender": "Bob",     "timestamp": "2025-05-01T10:28:00", "message": "Perfect. I'll update the doc and add a migration guide outline. Do we want to email affected clients directly?" },
-  { "sender": "Alice",   "timestamp": "2025-05-01T10:30:00", "message": "Yes. Loop in Carol on the email — she handled client comms last time and has the templates." },
+  { "sender": "Alice",   "timestamp": "2025-05-01T10:30:00", "message": "Yes. Loop in Jemma on the email — she handled client comms last time and has the templates." },
   { "sender": "Bob",     "timestamp": "2025-05-01T10:31:00", "message": "On it." },
 
   { "sender": "Dan",     "timestamp": "2025-05-01T10:45:00", "message": "Eve you were completely right — CI runner is set to UTC but our mock dates were hardcoded in EST. Tests pass now." },
@@ -41,6 +41,7 @@
   { "sender": "Bob",     "timestamp": "2025-05-01T11:19:00", "message": "Ah. Right." },
   { "sender": "Carol",   "timestamp": "2025-05-01T11:21:00", "message": "Haha. Okay I'll hold off then and see how our own thing turns out." },
   { "sender": "Alice",   "timestamp": "2025-05-01T11:23:00", "message": "Noted, Carol. Good motivation to actually finish it." },
+  { "sender": "Dan",     "timestamp": "2025-05-01T11:24:00", "message": "I'll need Jim to work on the transcription element tomorrow, but he's currently sleeping."},
 
   { "sender": "Eve",     "timestamp": "2025-05-01T12:02:00", "message": "Search indexer is looking stable on staging. 99.8% query success rate over the last 2 hours, p95 latency down by 40ms compared to the old version." },
   { "sender": "Alice",   "timestamp": "2025-05-01T12:05:00", "message": "That's a great improvement. What changed?" },

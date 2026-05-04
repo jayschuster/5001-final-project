@@ -18,6 +18,7 @@ import ollama
 
 
 # ── Defaults ──────────────────────────────────────────────────────────────────
+SUMMARIZATION_MODEL = "ollama-3.2"
 DEFAULT_CHAT_MODEL  = "devstral-small-2:24b-cloud"
 DEFAULT_EMBED_MODEL = "nomic-embed-text"
 CHUNK_SIZE          = 10   # messages per chunk
@@ -153,7 +154,8 @@ Answer questions using ONLY the context extracted from the logs provided in each
 If the answer is not clearly present in the context, say: "I don't see that in the logs."
 Be explanative and direct. Plain text only — no bullet symbols, no markdown, no ** for bolding.
 Make sure to ask followup questions to narrow down specifics.
-Address the user directly, replacing their name ({user}) with "you"."""
+Address the user directly, replacing their name ({user}) with "you".
+The person you are talking to is named {user}. They might be in the logs but they might not be."""
 
     messages = [{"role": "system", "content": system_prompt}]
     messages += history
